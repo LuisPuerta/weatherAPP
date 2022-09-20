@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/a976d6813c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="body" id="body">
+    <div id="#container" class="container m-auto">
+      <p class="text-center text-5xl font-light m-5 text-slate-600">
+        Weather in
+      </p>
+      <form id="form" class="m-auto w-5/6" action="#">
+        <div class="m-2 inline-block w-full">
+          <select
+            class="block appearance-none w-2/5 m-auto bg-slate-300 border-white text-gray-700 px-4 py-3 rounded-full focus:bg-white focus:border-gray-500"
+            id="country"
+          >
+            <option disabled selected value="">Select</option>
+            <option value="US">United States</option>
+            <option value="AR">Argentina</option>
+            <option value="CA">Canada</option>
+            <option value="CO">Colombia</option>
+            <option value="CR">Costa Rica</option>
+            <option value="ES">Spain</option>
+            <option value="VE">Venezuela</option>
+            <option value="MX">Mexico</option>
+            <option value="PE">Peru</option>
+            <option value="EG">Egipt</option>
+            <option value="BR">Brazil</option>
+          </select>
+          <div class="input_text w-2/5 m-auto">
+            <input
+              class="bg-slate-200 rounded-full w-full px-4 py-3 focus:bg-white focus:border-gray-500 mt-1"
+              type="text"
+              placeholder="City"
+              id="city"
+            />
+          </div>
+          <div class="w-9 m-auto">
+            <input
+              type="submit"
+              value="Go!"
+              id="submit"
+              class="mt-2 -ml-2 bg-green-600 text-white w-full rounded-md cursor-pointer transion duration-200 hover:bg-green-700"
+            />
+          </div>
+        </div>
+      </form>
+      <div class="showWeather flex flex-wrap" id="#showWeather"></div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
