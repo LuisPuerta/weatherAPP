@@ -3,7 +3,7 @@
 }
 
 .body {
-  background-image: url("img/b&w.png");
+  background-image: url("img/b&w.PNG");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -13,7 +13,7 @@
 
 /* Background classes */
 .hot-weather-bg {
-  background-image: url("img/hot.png");
+  background-image: url("img/hot.PNG");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -22,7 +22,7 @@
 }
 
 .warm-weather-bg {
-  background-image: url("img/warm.png");
+  background-image: url("img/warm.PNG");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -31,7 +31,7 @@
 }
 
 .cool-weather-bg {
-  background-image: url("img/cool.png");
+  background-image: url("img/cool.PNG");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -40,7 +40,7 @@
 }
 
 .cold-weather-bg {
-  background-image: url("img/cold.png");
+  background-image: url("img/cold.PNG");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
